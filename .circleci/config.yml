@@ -34,7 +34,7 @@ jobs:
           command: >
             echo "The command above installs Heroku, the command below deploys.
             What you do inbetween is up to you!"
-      - heroku/deploy-via-git
+      #- heroku/deploy-via-git
 
 workflows:
   # Below is the definition of your workflow.
